@@ -20,7 +20,7 @@ public class Envios {
         }
     }
 
-    // 3. Recargo por distancia (COP)
+    // 3. Recargo por distancia
     public static int calcularRecargoDistancia(int km) {
         if (km < 10) {
             return 0;
